@@ -28,9 +28,8 @@ public class QuizData implements CommandLineRunner { // implementacja CommandLin
         question3.addAnswer(new Answer("Jeff Bazo",false));
         question3.addAnswer(new Answer("Bill Gates",false));
         question3.addAnswer(new Answer("Mark Zuckenberg",true));Question question4 = new Question("Word's Longest River?");
-        question4.addAnswer(new Answer("River Nile",true));
-        question4.addAnswer(new Answer("River Amazon",false));
-        question4.addAnswer(new Answer("River Godavari",false));
+
+
 
         test.addQuestion(question);
         test.addQuestion(question2);
